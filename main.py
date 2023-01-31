@@ -8,4 +8,8 @@ app = Flask(__name__)
 def index():
     return 'Hello, word!'
 
+
+if __name__ == '__main__':
+    app.run()
+
 # flask --app main.py run
